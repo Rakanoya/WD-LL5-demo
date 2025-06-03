@@ -41,8 +41,9 @@ img {
   box-shadow: 0 4px 16px rgba(80, 60, 40, 0.10);
 }
 img:hover {
-  transform: scale(1.05) rotate(-2deg);
-  box-shadow: 0 8px 32px rgba(80, 60, 40, 0.18);
+  transform: scale(1.08) rotate(-2deg);
+  box-shadow: 0 12px 36px rgba(80, 60, 40, 0.22);
+  z-index: 2;
 }
 
 /* Optional decorative border for each tile */
